@@ -327,6 +327,24 @@
         "name": "SOM Area.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "—Pngtree—cheese cartoon illustration_5562222.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "—Pngtree—cheese cartoon illustration_5562222.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CANTArea.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CANTArea.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -614,6 +632,8 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -659,11 +679,15 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": false,
+          "folded": false,
           "name": "Button Play",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -729,6 +753,8 @@
               "events": []
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -862,6 +888,8 @@
               "events": []
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1117,6 +1145,8 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1236,6 +1266,8 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -1255,6 +1287,8 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1314,6 +1348,8 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1351,6 +1387,8 @@
           "actions": [],
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1383,6 +1421,8 @@
               "events": []
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1727,6 +1767,8 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1792,6 +1834,8 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1844,6 +1888,8 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1949,6 +1995,8 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2239,6 +2287,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 62,
+          "layer": "",
+          "locked": false,
+          "name": "cheese",
+          "persistentUuid": "b369fcca-fc1a-4cba-b679-c7530423d49f",
+          "width": 57,
+          "x": 568,
+          "y": 1093,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 362,
+          "layer": "",
+          "locked": false,
+          "name": "CANTArea",
+          "persistentUuid": "45dc2d54-c1e5-40d6-9009-856e6d6d2314",
+          "width": 450,
+          "x": 318,
+          "y": 941,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -2416,9 +2496,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -2848,6 +2928,105 @@
               ]
             }
           ]
+        },
+        {
+          "name": "cheese",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "—Pngtree—cheese cartoon illustration_5562222.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CANTArea",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "CANTArea.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 346.3333435058594,
+                            "y": 172.33334350585938
+                          },
+                          {
+                            "x": 803.0000610351562,
+                            "y": 171.66668701171875
+                          },
+                          {
+                            "x": 848.3333129882812,
+                            "y": 422.3333435058594
+                          },
+                          {
+                            "x": 359.6666564941406,
+                            "y": 429
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -2856,12 +3035,15 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": false,
           "folded": true,
           "name": "Beginning and Always (Music) - TEST",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2937,11 +3119,23 @@
                     "\"Test\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "cheese"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2997,6 +3191,8 @@
               "events": []
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3070,6 +3266,8 @@
               "events": []
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3103,6 +3301,8 @@
               "events": []
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -3192,6 +3392,8 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3261,6 +3463,8 @@
               "events": []
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3316,6 +3520,8 @@
               "events": []
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -3412,12 +3618,15 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": false,
           "folded": true,
           "name": "GPS Accuracy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3482,6 +3691,8 @@
               "events": []
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3558,6 +3769,8 @@
               "events": []
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3616,12 +3829,15 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": false,
           "folded": true,
           "name": "Menu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3662,6 +3878,8 @@
               ],
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -3694,6 +3912,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -3728,6 +3948,8 @@
               ]
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3768,6 +3990,8 @@
               ],
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -3848,6 +4072,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -3930,6 +4156,8 @@
               ]
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3994,6 +4222,8 @@
               "events": []
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4058,6 +4288,8 @@
               "events": []
             },
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4129,12 +4361,15 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
+          "disabled": false,
+          "folded": false,
           "name": "Strange Old Man",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4163,6 +4398,8 @@
               "actions": [],
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -4211,6 +4448,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -4245,6 +4484,139 @@
                   "events": []
                 }
               ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "cheese",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "NavigationIcon01",
+                    "CANTArea",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "cheese",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SoundPlaying"
+                      },
+                      "parameters": [
+                        "",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "Bells.mp3",
+                        "2",
+                        "100",
+                        "100",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "NavigationIcon01",
+                    "cheese",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": []
             }
           ],
           "parameters": []
@@ -4489,6 +4861,8 @@
       ],
       "events": [
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4519,6 +4893,8 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4574,6 +4950,8 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4683,6 +5061,8 @@
           "sentence": "Animate _PARAM3_ copies of _PARAM2_ that orbit around _PARAM1_ at a distance of _PARAM5_ with orbit speed of _PARAM4_ degrees per second. Rotate orbiting objects at _PARAM6_ degrees per second.  Start objects with an angle offset of _PARAM9_ degrees.  Create objects on layer _PARAM7_ with Z value _PARAM8_.  Reset locations of orbiting objects after quantity is reduced: _PARAM10_",
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "CenterObject",
               "conditions": [],
@@ -4693,11 +5073,15 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "disabled": false,
+                  "folded": false,
                   "name": "Count the number of linked objects (always)",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Comment",
                       "color": {
                         "b": 109,
@@ -4711,6 +5095,8 @@
                       "comment2": ""
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -4750,11 +5136,15 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "disabled": false,
+                  "folded": false,
                   "name": "Create orbiting objects (if needed)",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -4774,6 +5164,8 @@
                       "actions": [],
                       "events": [
                         {
+                          "disabled": false,
+                          "folded": false,
                           "infiniteLoopWarning": true,
                           "type": "BuiltinCommonInstructions::While",
                           "whileConditions": [
@@ -4795,6 +5187,8 @@
                           "actions": [],
                           "events": [
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Comment",
                               "color": {
                                 "b": 109,
@@ -4808,6 +5202,8 @@
                               "comment2": ""
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [],
                               "actions": [
@@ -4853,6 +5249,8 @@
                               "events": []
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Comment",
                               "color": {
                                 "b": 109,
@@ -4866,6 +5264,8 @@
                               "comment2": ""
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [],
                               "actions": [
@@ -4900,6 +5300,8 @@
                           ]
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -4913,6 +5315,8 @@
                           "comment2": ""
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
                           "actions": [
@@ -4933,6 +5337,8 @@
                           "events": []
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::ForEach",
                           "object": "OrbitingObject",
                           "conditions": [
@@ -4952,6 +5358,8 @@
                           "actions": [],
                           "events": [
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [],
                               "actions": [
@@ -4972,6 +5380,8 @@
                               "events": []
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [],
                               "actions": [
@@ -4992,6 +5402,8 @@
                               "events": []
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Comment",
                               "color": {
                                 "b": 109,
@@ -5005,6 +5417,8 @@
                               "comment2": ""
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [],
                               "actions": [
@@ -5026,6 +5440,8 @@
                           ]
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -5039,6 +5455,8 @@
                           "comment2": ""
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
                           "actions": [
@@ -5068,11 +5486,15 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "disabled": false,
+                  "folded": false,
                   "name": "Delete orbiting objects (if needed)",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -5092,12 +5514,16 @@
                       "actions": [],
                       "events": [
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::ForEach",
                           "object": "OrbitingObject",
                           "conditions": [],
                           "actions": [],
                           "events": [
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -5144,6 +5570,8 @@
                           ]
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -5157,6 +5585,8 @@
                           "comment2": ""
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -5197,11 +5627,15 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "disabled": false,
+                  "folded": false,
                   "name": "Move orbiting objects (always)",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::ForEach",
                       "object": "OrbitingObject",
                       "conditions": [
@@ -5221,6 +5655,8 @@
                       "actions": [],
                       "events": [
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -5234,6 +5670,8 @@
                           "comment2": ""
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
                           "actions": [
@@ -5254,6 +5692,8 @@
                           "events": []
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -5267,6 +5707,8 @@
                           "comment2": ""
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -5301,6 +5743,8 @@
                           "events": []
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -5314,6 +5758,8 @@
                           "comment2": ""
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
                           "actions": [
@@ -5334,6 +5780,8 @@
                           "events": []
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -5347,6 +5795,8 @@
                           "comment2": ""
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
                           "actions": [
@@ -5366,6 +5816,8 @@
                           "events": []
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -5379,6 +5831,8 @@
                           "comment2": ""
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
                           "actions": [
@@ -5524,11 +5978,15 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "disabled": false,
+              "folded": false,
               "name": "Delete objects",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5542,6 +6000,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5648,11 +6108,15 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "disabled": false,
+              "folded": false,
               "name": "Camera Shake",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5666,6 +6130,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -5684,6 +6150,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5697,6 +6165,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -5800,6 +6270,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5813,6 +6285,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -5831,6 +6305,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5860,6 +6336,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5873,6 +6351,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5905,6 +6385,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5937,6 +6419,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5950,6 +6434,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -5982,6 +6468,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -5995,6 +6483,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -6027,6 +6517,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -6040,6 +6532,8 @@
                   "comment2": ""
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -6170,6 +6664,8 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "disabled": false,
+              "folded": false,
               "name": "Camera Shake",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -6179,11 +6675,15 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "disabled": false,
+                  "folded": false,
                   "name": "Start shaking",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -6202,6 +6702,8 @@
                       "actions": [],
                       "events": [
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -6215,6 +6717,8 @@
                           "comment2": ""
                         },
                         {
+                          "disabled": false,
+                          "folded": false,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -6261,11 +6765,15 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
+                          "disabled": false,
+                          "folded": false,
                           "name": "Calculate movement of the shake",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
                           "events": [
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Comment",
                               "color": {
                                 "b": 109,
@@ -6279,6 +6787,8 @@
                               "comment2": ""
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -6346,12 +6856,15 @@
                                   "colorG": 176,
                                   "colorR": 74,
                                   "creationTime": 0,
+                                  "disabled": false,
                                   "folded": true,
                                   "name": "Correct for drift and reset drift tracking variables",
                                   "source": "",
                                   "type": "BuiltinCommonInstructions::Group",
                                   "events": [
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -6365,6 +6878,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
                                         {
@@ -6399,6 +6914,8 @@
                                       "events": []
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
                                         {
@@ -6432,6 +6949,8 @@
                                       "events": []
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
                                         {
@@ -6501,6 +7020,8 @@
                                       "events": []
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -6514,6 +7035,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [],
                                       "actions": [
@@ -6572,6 +7095,8 @@
                                   "parameters": []
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Comment",
                                   "color": {
                                     "b": 109,
@@ -6585,6 +7110,8 @@
                                   "comment2": ""
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -6624,6 +7151,8 @@
                                   "actions": [],
                                   "events": [
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -6637,6 +7166,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -6650,6 +7181,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
                                         {
@@ -6668,6 +7201,8 @@
                                       "actions": [],
                                       "events": [
                                         {
+                                          "disabled": false,
+                                          "folded": false,
                                           "type": "BuiltinCommonInstructions::Standard",
                                           "conditions": [
                                             {
@@ -6700,6 +7235,8 @@
                                           "events": []
                                         },
                                         {
+                                          "disabled": false,
+                                          "folded": false,
                                           "type": "BuiltinCommonInstructions::Standard",
                                           "conditions": [
                                             {
@@ -6734,6 +7271,8 @@
                                       ]
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -6747,6 +7286,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
                                         {
@@ -6765,6 +7306,8 @@
                                       "actions": [],
                                       "events": [
                                         {
+                                          "disabled": false,
+                                          "folded": false,
                                           "type": "BuiltinCommonInstructions::Standard",
                                           "conditions": [
                                             {
@@ -6797,6 +7340,8 @@
                                           "events": []
                                         },
                                         {
+                                          "disabled": false,
+                                          "folded": false,
                                           "type": "BuiltinCommonInstructions::Standard",
                                           "conditions": [
                                             {
@@ -6833,6 +7378,8 @@
                                   ]
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Comment",
                                   "color": {
                                     "b": 109,
@@ -6846,6 +7393,8 @@
                                   "comment2": ""
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -6864,6 +7413,8 @@
                                   "actions": [],
                                   "events": [
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -6877,6 +7428,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -6890,6 +7443,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
                                         {
@@ -6922,6 +7477,8 @@
                                       "events": []
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -6935,6 +7492,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -6948,6 +7507,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
                                         {
@@ -6982,6 +7543,8 @@
                                   ]
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Comment",
                                   "color": {
                                     "b": 109,
@@ -6995,6 +7558,8 @@
                                   "comment2": ""
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -7013,6 +7578,8 @@
                                   "actions": [],
                                   "events": [
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -7026,6 +7593,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -7039,6 +7608,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -7052,6 +7623,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
                                         {
@@ -7084,6 +7657,8 @@
                                       "events": []
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -7097,6 +7672,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -7110,6 +7687,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
                                         {
@@ -7144,6 +7723,8 @@
                                   ]
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Comment",
                                   "color": {
                                     "b": 109,
@@ -7157,6 +7738,8 @@
                                   "comment2": ""
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [],
                                   "actions": [
@@ -7185,11 +7768,15 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
+                          "disabled": false,
+                          "folded": false,
                           "name": "Move camera",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
                           "events": [
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Comment",
                               "color": {
                                 "b": 109,
@@ -7203,6 +7790,8 @@
                               "comment2": ""
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [],
                               "actions": [
@@ -7222,6 +7811,8 @@
                               "events": []
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Comment",
                               "color": {
                                 "b": 109,
@@ -7235,6 +7826,8 @@
                               "comment2": ""
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -7253,6 +7846,8 @@
                               "actions": [],
                               "events": [
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Comment",
                                   "color": {
                                     "b": 109,
@@ -7266,6 +7861,8 @@
                                   "comment2": ""
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -7334,6 +7931,8 @@
                                   ],
                                   "events": [
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -7347,6 +7946,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [],
                                       "actions": [
@@ -7380,6 +7981,8 @@
                                   ]
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Comment",
                                   "color": {
                                     "b": 109,
@@ -7393,6 +7996,8 @@
                                   "comment2": ""
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -7426,6 +8031,8 @@
                                   ],
                                   "events": [
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -7439,6 +8046,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [],
                                       "actions": [
@@ -7460,6 +8069,8 @@
                                   ]
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Comment",
                                   "color": {
                                     "b": 109,
@@ -7473,6 +8084,8 @@
                                   "comment2": ""
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -7505,6 +8118,8 @@
                                   ],
                                   "events": [
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -7518,6 +8133,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [],
                                       "actions": [
@@ -7541,6 +8158,8 @@
                               ]
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Comment",
                               "color": {
                                 "b": 109,
@@ -7554,6 +8173,8 @@
                               "comment2": ""
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -7572,6 +8193,8 @@
                               "actions": [],
                               "events": [
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Comment",
                                   "color": {
                                     "b": 109,
@@ -7585,6 +8208,8 @@
                                   "comment2": ""
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -7653,6 +8278,8 @@
                                   ],
                                   "events": [
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -7666,6 +8293,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [],
                                       "actions": [
@@ -7699,6 +8328,8 @@
                                   ]
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Comment",
                                   "color": {
                                     "b": 109,
@@ -7712,6 +8343,8 @@
                                   "comment2": ""
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -7745,6 +8378,8 @@
                                   ],
                                   "events": [
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -7758,6 +8393,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [],
                                       "actions": [
@@ -7779,6 +8416,8 @@
                                   ]
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Comment",
                                   "color": {
                                     "b": 109,
@@ -7792,6 +8431,8 @@
                                   "comment2": ""
                                 },
                                 {
+                                  "disabled": false,
+                                  "folded": false,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -7824,6 +8465,8 @@
                                   ],
                                   "events": [
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Comment",
                                       "color": {
                                         "b": 109,
@@ -7837,6 +8480,8 @@
                                       "comment2": ""
                                     },
                                     {
+                                      "disabled": false,
+                                      "folded": false,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [],
                                       "actions": [
@@ -7872,11 +8517,15 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "disabled": false,
+                  "folded": false,
                   "name": "Stop shaking",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Comment",
                       "color": {
                         "b": 109,
@@ -7890,6 +8539,8 @@
                       "comment2": ""
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -7954,11 +8605,15 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
+                          "disabled": false,
+                          "folded": false,
                           "name": "Correct for drift and reset drift tracking variables",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
                           "events": [
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Comment",
                               "color": {
                                 "b": 109,
@@ -7972,6 +8627,8 @@
                               "comment2": ""
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -8006,6 +8663,8 @@
                               "events": []
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -8039,6 +8698,8 @@
                               "events": []
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -8108,6 +8769,8 @@
                               "events": []
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Comment",
                               "color": {
                                 "b": 109,
@@ -8121,6 +8784,8 @@
                               "comment2": ""
                             },
                             {
+                              "disabled": false,
+                              "folded": false,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [],
                               "actions": [
@@ -8212,6 +8877,8 @@
           "sentence": " Camera is shaking",
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8255,6 +8922,8 @@
           "sentence": "Stop shaking the camera",
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8338,6 +9007,8 @@
               "sentence": "",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -8355,6 +9026,8 @@
                   "actions": [],
                   "events": [
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -8406,6 +9079,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -8458,6 +9133,8 @@
                       "events": []
                     },
                     {
+                      "disabled": false,
+                      "folded": false,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -8526,6 +9203,8 @@
               "sentence": "Make _PARAM0_ blink for _PARAM2_ seconds",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -8626,6 +9305,8 @@
               "sentence": "_PARAM0_ is flashing",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -8643,6 +9324,8 @@
                   "events": []
                 },
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -8706,6 +9389,8 @@
               "sentence": "",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -8759,6 +9444,8 @@
               "sentence": "",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -8812,6 +9499,8 @@
               "sentence": "Stop flashing _PARAM0_",
               "events": [
                 {
+                  "disabled": false,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -8951,6 +9640,8 @@
           "sentence": "",
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
               "inlineCode": "gdjs.evtTools.geolocation = {\n    permission: { state: navigator.permissions ? \"loading\" : \"unknown\" }\n};\n\n// Prefetch the permission and set up an event handler to keep it up to date\nif (navigator.permissions) navigator.permissions.query({ name: 'geolocation' })\n    .then((permission) => {\n        gdjs.evtTools.geolocation.permission = permission;\n    });\n",
               "parameterObjects": "",
@@ -8971,6 +9662,8 @@
           "sentence": "",
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
               "inlineCode": "eventsFunctionContext.returnValue = gdjs.evtTools.geolocation.permission.state;\n",
               "parameterObjects": "",
@@ -8991,6 +9684,8 @@
           "sentence": "Watch player movements and store the results in global variable _PARAM1_",
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
               "inlineCode": "this.logger = (this.logger || new gdjs.Logger(\"Geolocation extension\"))\n\nif (navigator && navigator.geolocation) navigator\n    .geolocation\n    .watchPosition(\n        location => {\n            const globalVariable = runtimeScene.getGame().getVariables().get(eventsFunctionContext.getArgument(\"globalVariableName\"));\n            for (const child of Object.keys(location.coords.__proto__)) {\n                globalVariable.getChild(child).setNumber(location.coords[child]);\n            }\n        },\n        (error) => this.logger.error(`Couldn't locate player: ` + error.message),\n        { enableHighAccuracy: true }\n    );\n",
               "parameterObjects": "",
@@ -9022,6 +9717,8 @@
           "sentence": "Locate the player and store the results in scene variable _PARAM1_",
           "events": [
             {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::JsCode",
               "inlineCode": "this.logger = (this.logger || new gdjs.Logger(\"Geolocation extension\"))\n\nif (navigator && navigator.geolocation) navigator\n    .geolocation\n    .getCurrentPosition(\n        location => {\n            const sceneVariable = eventsFunctionContext.getArgument(\"sceneVariableName\");\n            for (const child in location.coords) {\n                sceneVariable.getChild(child).setNumber(location.coords[child]);\n            }\n        },\n        (error) => this.logger.error(`Couldn't locate player: ` + error.message),\n        { enableHighAccuracy: true }\n    );\n",
               "parameterObjects": "",
